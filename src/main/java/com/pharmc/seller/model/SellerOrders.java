@@ -23,16 +23,16 @@ public class SellerOrders {
 	
 	private long oid;
 	
-    @JsonFormat(pattern="yyyy-MM-dd")
-	private Date date;
+//    @JsonFormat(pattern="yyyy-MM-dd")
+//	private Date date;
 
-	public Date getDate() {
-		return date;
-	}
-
-	public void setDate(Date date) {
-		this.date = date;
-	}
+//	public Date getDate() {
+//		return date;
+//	}
+//
+//	public void setDate(Date date) {
+//		this.date = date;
+//	}
 
 	public long getS_o_id() {
 		return soid;

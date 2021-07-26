@@ -12,6 +12,6 @@ import com.pharmc.seller.model.SellerOrders;
 @Repository
 public interface SellerOrdersDAO extends JpaRepository<SellerOrders, Long>{
 
-	@Query(value="select * from seller_order_details where sid = :sid",nativeQuery=true)
-	List<SellerOrders> getAllOrders(long sid);
+	@Query(value="select oid from seller_order_details where sid = :sid",nativeQuery=true)
+	List<Long> getAllOrders(long sid);
 }

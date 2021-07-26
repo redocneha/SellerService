@@ -60,7 +60,7 @@ public class SellerService {
 	    	
 	}
 
-	public List<SellerOrders> getOrders(long sid) {
+	public List<Long> getOrders(long sid) {
 		// TODO Auto-generated method stub	
 		return sellerOrdersDao.getAllOrders(sid);
 	}
